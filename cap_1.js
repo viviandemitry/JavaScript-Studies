@@ -43,6 +43,62 @@ do {
 
 
 
+//Sintaxe básica de um função
+
+function sayHello() {
+  console.loh('Hello');
+}
+
+sayHello();
+
+//Programação Orientada a Objetos em Javascript (POO)
+
+//Maneiras de criar um objeto simples:
+
+var obj = new Object();
+
+var obj = {};
+
+//ou podemos crair um completo
+
+obj = {
+  name: {
+    first: 'Ana',
+    Last: 'Yas'
+  },
+  adress: 'Middle Earth'
+};
+
+
+function book(title, pages, isbn) {
+  this.title = title;
+  this.pages = pages;
+  this.isbn = isbn;
+}
+
+var book = new book('title', 'pag', 'isbn');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
