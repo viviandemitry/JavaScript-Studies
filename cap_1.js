@@ -78,6 +78,11 @@ function book(title, pages, isbn) {
 
 var book = new book('title', 'pag', 'isbn');
 
+//Depuração e ferramentas
+
+//https://developer.chrome.com/devtools/docs/javascript-debugging
+
+// var pode ser declarada mais de uma vez, let quando declarada 2x apresenta erro
 
 
 
