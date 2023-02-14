@@ -33,5 +33,38 @@ function logAtMost5 (n) {
 
 //ex: Write a function hich takes in a string and returns counts of each character in the string.
 
-charCount("aaaa"); //{a:4}
+function charCount(str) {
+  //make object to return at end
+  var result = {};
+  //loop over string, for each character...
+  for (var i = 0; i < str.length; i++){
+    var char = str[i]
+    //if the char is a number/letter AND is a key in object, add one to count
+    if(result[char] > 0) {
+      result[char]==;
+    }
+    //if the char is a number/letter AND not in object, add it to obejct and set value to 1
+    else{
+      result[char] = 1;
+    };
+  }
+  return result;
+}
 charCount("hello"); // {h1:1, e:1, l:2, o:1}
+
+//Write a function called same, which accepts two arrays, the function should return true if every value in the array has its corresponding value squared in the second array. The same frequency as well. 
+
+function same(arr1, arr2){
+  if(arr1.length !== arr2.length){
+    return false;
+  }
+  for(let i = 0; i < arr1.length; i++){
+    let correctIndex === -1 //checking if the index is in there, if is negative is because its not there
+    {
+      return false;
+    }
+    console.log(arr2);
+    arr2.splice(correctIndex, 1)
+  }
+  return true;
+}
